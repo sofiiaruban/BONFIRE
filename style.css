@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/* Added it by yourself*/
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My CSS */
+div.wrapper {
+	width: 1150px;
+	margin: 0 auto;
+	} 
+body {	
+	background: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+	/* Grey area */
+div.grey {
+    background: #D9E0E6;
+    text-align: center;
+}
+p.top {
+    color: #999999;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/* Header */
+div.header {
+	margin-top: 38px;
+	margin-bottom: 38px;
+	text-align: center;
+}
+div.currencies > select { 
+	border-style: none;
+	color: #000000;
+	font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+}
+a.logo {
+	color: #000000;
+	font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+div.cart {
+	border: 1px solid #DFD2AD;
+	padding: 17px 40px;
+	font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: right;
+}
+/* Navigation */
+nav {
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 50px;
+}
+div.burger-menu {
+	float: left;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+div.burger-line	{ 	
+	width: 14px;
+	height: 2px;
+	background: #000000;
+	margin-bottom: 5px;
+}
+ul.nav-menu	{	
+	color: #000000;
+	font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+ul.nav-menu > li {
+	display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Main content */
+/*Back to link */
+a.back-link {
+	font-size: 14px;
+    font-weight: 400;
+}
+span.women {
+	color:#69889C; 
+}
+/* Item name */
+h2.item-name {	
+	color: #000000;
+	font-size: 24px;
+    font-weight: 700;
+}
+div.price-tag {
+	color: #69889C;
+}
+/* Item description */
+dl.item-description {
+	font-size: 14px;
+    font-weight: 400;
+}
+dl.item-description > dt {
+	color: #000000;
+}
+dl.item-description > dd {
+	color: #69889C;
+}
+p.description {
+	color: #555555;
+	font-size: 14px;
+    font-weight: 300;
+}
+ul.description-bottom {
+	color: #555555;
+	font-size: 14px;
+    font-weight: 300;
+}
+/* Choosing options*/
+label.choose-option {
+	color:  #000000;
+	font-size: 14px;
+	text-transform: uppercase;
+    font-weight: 700;
+}
+select.color {
+	color: #999999;
+	font-size: 13px;
+    font-weight: 300;
+}
+select.size {
+	color: #999999;
+	font-size: 13px;
+    font-weight: 300;
+}
+select.quantity {
+	color: #999999;
+	font-size: 13px;
+    font-weight: 300;
+}
+/* Add to card */
+input.cart-btn {
+	background: #000000; 
+	color: #ffffff;
+	border-color: #000000; 
+	font-size: 12px;
+	text-transform: uppercase;
+    font-weight: 700;
+}
+/* Add to wishlist */
+input.wishlist-btn {
+	color: #000000;
+	border: 1px solid #999999;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+/*Reset button */
+input.clear {
+	font-size: 12px;
+	text-transform: uppercase;
+    font-weight: 400;
+}
+/* Social media */
+ul.social-media {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+li.share-this {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+/* Copyright*/
+footer {
+	margin-top: 100px;
+}
+p.copyright {
+	color: #cccccc;
+	border-top:1px solid #cccccc;
+	font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.left {
+	float: left;
+	width: 600px;
+}
+.right {
+	float:right;
+	width: 500px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
