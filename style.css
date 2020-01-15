@@ -241,6 +241,7 @@ p.copyright {
 	float:right;
 	width: 500px;
 }
+/*clearfix*/
 .clearfix::after {
   content: "";
   clear: both;
