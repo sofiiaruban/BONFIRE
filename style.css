@@ -56,6 +56,7 @@ div.wrapper {
 body {	
 	background: #ffffff;
 	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 	/* Grey area */
 div.grey {
@@ -66,7 +67,6 @@ p.top {
     color: #999999;
     font-size: 10px;
     text-transform: uppercase;
-    font-weight: 400;
 }
 /* Header */
 div.header {
@@ -79,7 +79,6 @@ div.currencies > select {
 	color: #000000;
 	font-size: 12px;
     text-transform: uppercase;
-    font-weight: 400;
     float: left;
 }
 a.logo {
@@ -93,7 +92,6 @@ div.cart {
 	padding: 17px 40px;
 	font-size: 12px;
     text-transform: uppercase;
-    font-weight: 400;
     float: right;
 }
 /* Navigation */
@@ -117,7 +115,6 @@ ul.nav-menu	{
 	color: #000000;
 	font-size: 12px;
     text-transform: uppercase;
-    font-weight: 400;
     text-align: center;
 }
 ul.nav-menu > li {
@@ -129,7 +126,6 @@ ul.nav-menu > li {
 /*Back to link */
 a.back-link {
 	font-size: 14px;
-    font-weight: 400;
 }
 span.women {
 	color:#69889C; 
@@ -146,7 +142,7 @@ div.price-tag {
 /* Item description */
 dl.item-description {
 	font-size: 14px;
-    font-weight: 400;
+	display: inline;
 }
 dl.item-description > dt {
 	color: #000000;
@@ -165,26 +161,26 @@ ul.description-bottom {
     font-weight: 300;
 }
 /* Choosing options*/
-label.choose-option {
+div.choose-option {
 	color:  #000000;
 	font-size: 14px;
 	text-transform: uppercase;
     font-weight: 700;
 }
-select.color {
+select.selection {
 	color: #999999;
 	font-size: 13px;
     font-weight: 300;
+    width: 170px;
+    height: 35px;
+    display: block;
 }
-select.size {
+input.quantity {
 	color: #999999;
 	font-size: 13px;
-    font-weight: 300;
-}
-select.quantity {
-	color: #999999;
-	font-size: 13px;
-    font-weight: 300;
+	width: 70px;
+    height: 30px;
+    display: block;
 }
 /* Add to card */
 input.cart-btn {
@@ -202,13 +198,11 @@ input.wishlist-btn {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-    font-weight: 400;
 }
 /*Reset button */
 input.clear {
 	font-size: 12px;
 	text-transform: uppercase;
-    font-weight: 400;
 }
 /* Social media */
 ul.social-media {
@@ -229,7 +223,6 @@ p.copyright {
 	color: #cccccc;
 	border-top:1px solid #cccccc;
 	font-size: 13px;
-    font-weight: 400;
     margin-bottom: 30px;
     text-align: center;
 }
