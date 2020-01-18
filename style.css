@@ -62,6 +62,14 @@ body {
 div.grey {
     background: #D9E0E6;
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+span.close-btn {
+	color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    float: right;
 }
 p.top {
     color: #999999;
@@ -126,14 +134,24 @@ ul.nav-menu > li {
 form.search-bar {
 	float: right;
 	padding: 30px 0;
+	border: none;
 }
 /* Main content */
 /*Back to link */
-a.back-link {
+div.back-link {
 	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 48px;
 }
 span.women {
 	color:#69889C; 
+}
+/* Item name */
+div.item-name {	
+	color: #000000;
+	font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
 }
 div.ranking {
 	border-right: 1px solid #bababa;
@@ -145,25 +163,26 @@ span.orange-star {
 span.grey-star {
 	color: #e0e0df;
 }
-span.sum-rating {}
+span.sum-rating {
+	font-size: 12px;
+	font-weight: 300;
+}
 span.review-link {
 	font-size: 12px;
 	text-transform: uppercase;
 	margin-left: 15px;
 	border-bottom:  1px solid #bababa;
 }
-/* Item name */
-h2.item-name {	
-	color: #000000;
-	font-size: 24px;
-    font-weight: 700;
-}
 div.price-tag {
 	color: #69889C;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 /* Item description */
 dl.item-description {
 	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 dl.item-description > dt {
 	color: #000000;
@@ -177,11 +196,15 @@ p.description {
 	color: #555555;
 	font-size: 14px;
     font-weight: 300;
+    line-height: 21px;
+    margin-bottom: 35px;
 }
 ul.description-bottom {
 	color: #555555;
 	font-size: 14px;
     font-weight: 300;
+    line-height: 21px;
+    margin-bottom: 40px;
 }
 /* Choosing options*/
 div.choose-option {
@@ -189,6 +212,11 @@ div.choose-option {
 	font-size: 14px;
 	text-transform: uppercase;
     font-weight: 700;
+    margin-bottom: 40px;
+}
+label.btm-label {
+	margin-bottom: 20px;
+	display: block;
 }
 select.selection {
 	color: #999999;
@@ -217,6 +245,10 @@ input.cart-btn {
 	font-size: 12px;
 	text-transform: uppercase;
     font-weight: 700;
+    width: 215px;
+    height: 55px;
+    float: left;
+    margin-bottom: 40px;
 }
 /* Add to wishlist */
 input.wishlist-btn {
@@ -225,11 +257,21 @@ input.wishlist-btn {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
+	width: 215px;
+    height: 55px;
+    float: right;
+    margin-bottom: 40px;
 }
 /*Reset button */
 input.clear {
+	color:#000000;
 	font-size: 12px;
 	text-transform: uppercase;
+	border: none;
+	display: block;
+	margin-bottom: 43px;
+	border-bottom:  1px solid #bababa;
+	background-color: #ffffff;
 }
 /* Social media */
 ul.social-media {
