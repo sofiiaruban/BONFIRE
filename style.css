@@ -58,7 +58,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
-	/* Grey area */
+/* Grey area */
 div.grey {
     background: #D9E0E6;
     text-align: center;
@@ -91,7 +91,7 @@ div.currencies > select {
 }
 a.logo {
 	color: #000000;
-	font-size: 24px;
+	font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -283,6 +283,9 @@ li.share-this {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+ul.social-media > li {
+	display: inline;
 }
 main {	
 	margin-bottom: 100px;
