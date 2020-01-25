@@ -131,10 +131,9 @@ ul.nav-menu > li {
     padding-bottom: 30px;
     padding-left: 50px;
 }
-form.search-bar {
+form.search-bar  {
 	float: right;
 	padding: 30px 0;
-	border: none;
 }
 /* Main content */
 div.big-photo	{
@@ -149,12 +148,10 @@ div.small-photo {
 	margin-top: 20px;
 	margin-right: 8px;
 }
-
 div.small-photo:last-child {
 	margin-right: 0;
 }
 /*Back to link */
-
 div.back-link {
 	font-size: 14px;
 	margin-top: 15px;
