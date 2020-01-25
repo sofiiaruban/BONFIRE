@@ -137,7 +137,24 @@ form.search-bar {
 	border: none;
 }
 /* Main content */
+div.big-photo	{
+	background-color: #e1e1e1;
+	height: 690px;
+}
+div.small-photo {
+	float: left;
+	background-color: #e1e1e1;
+	width: calc(25% - 6px);
+	height: 165px;
+	margin-top: 20px;
+	margin-right: 8px;
+}
+
+div.small-photo:last-child {
+	margin-right: 0;
+}
 /*Back to link */
+
 div.back-link {
 	font-size: 14px;
 	margin-top: 15px;
@@ -151,7 +168,7 @@ div.item-name {
 	color: #000000;
 	font-size: 24px;
     font-weight: 700;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 div.ranking {
 	border-right: 1px solid #bababa;
@@ -204,7 +221,7 @@ ul.description-bottom {
 	font-size: 14px;
     font-weight: 300;
     line-height: 21px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 /* Choosing options*/
 div.choose-option {
@@ -212,7 +229,7 @@ div.choose-option {
 	font-size: 14px;
 	text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 label.btm-label {
 	margin-bottom: 20px;
@@ -248,7 +265,7 @@ input.cart-btn {
     width: 215px;
     height: 55px;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 /* Add to wishlist */
 input.wishlist-btn {
@@ -260,7 +277,7 @@ input.wishlist-btn {
 	width: 215px;
     height: 55px;
     float: right;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 /*Reset button */
 input.clear {
@@ -269,7 +286,7 @@ input.clear {
 	text-transform: uppercase;
 	border: none;
 	display: block;
-	margin-bottom: 43px;
+	margin-bottom: 40px;
 	border-bottom:  1px solid #bababa;
 	background-color: #ffffff;
 }
@@ -277,6 +294,9 @@ input.clear {
 ul.social-media {
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 150px;
 }
 li.share-this {
 	font-size: 12px;
@@ -297,6 +317,7 @@ p.copyright {
 	font-size: 13px;
     margin-bottom: 30px;
     text-align: center;
+   	padding-top: 30px;
 }
 .left {
 	float: left;
